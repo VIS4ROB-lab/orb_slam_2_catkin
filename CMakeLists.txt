@@ -15,7 +15,7 @@ file(MAKE_DIRECTORY ${CATKIN_DEVEL_PREFIX}/include/orb_slam_3/CameraModels)
 
 ExternalProject_Add(orb_slam_3_src
   GIT_REPOSITORY git@github.com:UZ-SLAMLab/ORB_SLAM3.git
-  GIT_TAG origin/v0.4-beta
+  GIT_TAG v0.4-beta
   UPDATE_COMMAND ""
   #PATCH_COMMAND patch -p1 < ${CMAKE_SOURCE_DIR}/fix_usleep.patch
   CONFIGURE_COMMAND
